@@ -11,7 +11,7 @@ namespace DeğerVeReferansTipleri
             //stock==  sayi1= 10 sayi birin değeri 10   sayi2=30 sayi ikinin değeri 30  sayi1=sayi2 sadece değerler atanır 
             //ve sayi 1 30 olur sayi2=65 olsada sonuç 30 olur
             
-             //heap==  sayilar 1  101[10,20,30] sayilar2 =102/[100,200,300] sayilar1=sayilar2 sayilar1 in ref numarası 102 olur
+             //heap== int[]  sayilar 1  101[10,20,30]  int[]  sayilar2 = 102[100,200,300] sayilar1=sayilar2 sayilar1 in ref numarası 102 olur
 
              int sayi1 = 10;
              int sayi2 = 30;

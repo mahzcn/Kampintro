@@ -8,12 +8,14 @@ namespace Kampintro
 		{
 			
 			string katagoriEtiketi = "Katagori ";
-			int ogrenciSayisi = 320000000;
+			int ogrenciSayisi =9000;
 			double faizOrani = 1.35;
 			bool sistemeGirisYapmisMi = false;
 			double dolarDun = 7.35;
 			double dolarBugün = 7.45;
 
+            
+        
             if (dolarDun>dolarBugün)
             {
 				Console.WriteLine("azalış butonu");

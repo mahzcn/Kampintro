@@ -43,8 +43,7 @@ namespace Donguler1
             Console.WriteLine(b ? "evet" : "hayır");
 
 
-            100   16
-             x    2
+            
             {
 
             }

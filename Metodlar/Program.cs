@@ -21,7 +21,18 @@ namespace Metodlar
 
             Urun[] urunler = new Urun[] { urun1,urun2 } ;
 
+            for (int i = 0; i < urunler.Length; i++)
+            {
+                Console.WriteLine(urun1.Adi);
+                Console.WriteLine(urun1.Açiklama);
+                Console.WriteLine(urun1.Fiyati);
 
+                Console.WriteLine(urun2.Adi);
+                Console.WriteLine(urun2.Fiyati);
+                Console.WriteLine(urun2.Açiklama);
+
+
+            }
             foreach  (Urun urun in urunler)
             {
 
@@ -40,11 +51,11 @@ namespace Metodlar
             Console.WriteLine("---------METODLAR-----------");
 
             sepetManager sepetManager = new sepetManager() ;
-            sepetManager.Ekle(urun1);
-            sepetManager.Ekle(urun2);
-            sepetManager.Ekle2("Armut", "Yeşil armut ", 12,2);
-            sepetManager.Ekle2("Elma", "Yeşil elma ", 12,3);
-            sepetManager.Ekle2("Kavun", "Bafra  kavunu ", 12,4);
+           // sepetManager.Ekle(urun1);
+           // sepetManager.Ekle(urun2);
+           // sepetManager.Ekle2("Armut", "Yeşil armut ", 12,2);
+           // sepetManager.Ekle2("Elma", "Yeşil elma ", 12,3);
+            //sepetManager.Ekle2("Kavun", "Bafra  kavunu ", 12,4);
 
 
 
